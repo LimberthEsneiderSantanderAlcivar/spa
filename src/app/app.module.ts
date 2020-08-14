@@ -33,7 +33,7 @@ import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.
   ],
   providers: [
     HeroesService,
-/*     {provide: APP_BASE_HREF, useValue: '/'} */
+    {provide: APP_BASE_HREF, useValue: '/asp'}
   ],
   bootstrap: [AppComponent]
 })
