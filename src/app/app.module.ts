@@ -1,4 +1,3 @@
-import {APP_BASE_HREF} from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 //rutas
@@ -32,8 +31,7 @@ import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.
     APP_ROUTING
   ],
   providers: [
-    HeroesService,
-    {provide: APP_BASE_HREF, useValue: '/asp'}
+    HeroesService
   ],
   bootstrap: [AppComponent]
 })
